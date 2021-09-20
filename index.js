@@ -6,7 +6,7 @@ app.use(express.json());
 app.use('/api/usuarios', usuarios);
 
 app.get('/', (req, res) => {
-    res.send('Hola Mundo!');
+    res.send('Hole Mundo!');
 });
 
 let port = process.env.PORT || 3000;
